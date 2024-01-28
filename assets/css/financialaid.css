@@ -1,0 +1,37 @@
+/*
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Tiles */
+
+body.is-preload .tiles article {
+    -moz-transform: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    opacity: 1;
+}
+
+.text{
+        font-size: 5em;
+        letter-spacing: 10px;
+        font-family: monospace;
+        border-right: 5px solid;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+            typing 0.5s steps (10000);
+            cursor: .5s step-end infinite alternate;
+
+}
+
+@keyframes cursor {
+    50% {  border-color: transparent; }
+}
+
+@keyframes typing{
+    from{ width:0 }
+}
